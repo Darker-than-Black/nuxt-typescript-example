@@ -1,0 +1,14 @@
+{
+  "size": {
+    "defaultValue": 10,
+    "type": "number"
+  },
+  "page": {
+    "defaultValue": 1,
+    "type": "number"
+  },
+  "sort": {
+    "defaultValue": "",
+    "type": "string"
+  }
+}

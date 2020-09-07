@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`user-nav.vue should match the snapshot 1`] = `
+<div>
+  <div class="d-flex align-items-center user__row">
+    <div class="user__icon">
+      VD
+    </div> <span class="user__name">
+      Влад Данилюк
+    </span>
+  </div>
+  <ul class="user-nav__list">
+    <li class="link user-nav__item">
+      Налаштування
+      <img src="/icons/Settings.svg" alt="settings" class="img"></li>
+  </ul>
+  <div class="user__row"><button type="button" class="btn btn-gray">
+      Вихід
+      <img src="/icons/Exit.svg" alt="Exit" class="img"></button></div>
+</div>
+`;

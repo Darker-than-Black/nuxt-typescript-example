@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`nav-modal.vue should match the snapshot 1`] = `
+<div class="nav-modal">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam</p>
+</div>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datepicker-range.vue should match the snapshot 1`] = `
+<div><label for="" class="title__field">
+
+    <!----></label>
+  <div>
+    <div class="datepicker mx-datepicker mx-datepicker-range">
+      <div class="mx-input-wrapper"><input placeholder="" name="date" type="text" autocomplete="off" class="input input__date">
+        <!----> <i class="mx-icon-calendar"><img src="/icons/Calendar.svg" alt="Calendar" class="img"></i></div>
+    </div>
+  </div>
+</div>
+`;

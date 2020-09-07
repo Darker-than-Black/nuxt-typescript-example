@@ -1,0 +1,53 @@
+{
+  "index": {
+    "text": "Загальне",
+    "icon": "Home",
+    "path": "/"
+  },
+  "journal": {
+    "text": "Журнал",
+    "icon": "Journal",
+    "path": "/journal",
+    "subLinks": {
+      "create-ticket": {
+        "path": "/journal/create-ticket",
+        "text": "Створення талону"
+      },
+      "_id": {
+        "path": "/journal/_id",
+        "text": "Талон"
+      }
+    }
+  },
+  "declarations": {
+    "text": "Декларації",
+    "icon": "List",
+    "path": "/declarations",
+    "subLinks": {
+      "_id": {
+        "path": "/declarations/_id",
+        "text": "Декларація"
+      }
+    }
+  },
+  "documents": {
+    "text": "Документи",
+    "icon": "Box",
+    "path": "/documents"
+  },
+  "cards": {
+    "text": "Платежі",
+    "icon": "Card",
+    "path": "/cards"
+  },
+  "analytics": {
+    "text": "Аналітика",
+    "icon": "Clock",
+    "path": "/analytics"
+  },
+  "notifications": {
+    "text": "Сповіщення",
+    "icon": "Bell",
+    "path": "/notifications"
+  }
+}

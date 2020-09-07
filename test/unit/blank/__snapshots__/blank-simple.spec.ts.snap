@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blank-simple.vue should match the snapshot 1`] = `
+<section class="blank-item">
+  <div class="blank-item__header">
+    <div>
+      <div class="blank-item__gray">
+        1. Тип декларації
+      </div>
+      <ul class="blank-item__list">
+        <li title="—" class="blank-item__text blank-item__btn fixed-length">
+          —
+        </li>
+        <li title="—" class="blank-item__text blank-item__btn fixed-length">
+          —
+        </li>
+        <li title="—" class="blank-item__text blank-item__btn fixed-length">
+          —
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="blank-item__content grid">
+    <div class="blank-item__content--element w-50">
+      <div class="blank-item__gray">
+        3. Додаткові аркуші
+      </div>
+      <div class="blank-item__text blank-item__flex">
+        —
+      </div>
+    </div>
+    <div class="blank-item__content--element w-50">
+      <div class="blank-item__gray">
+        4. Відвант. спец.
+      </div>
+      <div class="blank-item__text blank-item__flex">
+        —
+      </div>
+    </div>
+    <div class="blank-item__content--element w-50">
+      <div class="blank-item__gray">
+        5. Товарів
+      </div>
+      <div class="blank-item__text blank-item__flex">
+        —
+      </div>
+    </div>
+    <div class="blank-item__content--element w-50">
+      <div class="blank-item__gray">
+        6. Місць
+      </div>
+      <div class="blank-item__text blank-item__flex">
+        —
+      </div>
+    </div>
+  </div>
+</section>
+`;

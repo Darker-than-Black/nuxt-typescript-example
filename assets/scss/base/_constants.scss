@@ -1,0 +1,52 @@
+$screen-hd-plus: 1300px;
+$screen-full-hd: 1900px;
+
+:root {
+  // zoom
+  --zoom: 1;
+
+  @media screen and (min-width: $screen-hd-plus) {
+    --zoom: 1.2;
+  }
+
+  --black: #23344f;
+  --black-100: #000;
+  --white: #fff;
+  --green: #ddfbc7;
+  --green-100: #5fcb09;
+  --red: #f9dada;
+  --red-100: #fd2929;
+  --yellow: #fff1a6;
+
+  // gray
+  --gray: #f3f4fa;
+  --gray-100: #eeeff8;
+  --gray-200: #e1e3f0;
+  --gray-300: #ccc;
+  --gray-400: #cfd1e3;
+  --gray-500: #ededed;
+  --gray-600: #666;
+
+  // blue
+  --blue: #23344f;
+  --blue-100: #d6dce5;
+
+  // font sizes
+  --size-xxs: calc(0.625rem * var(--zoom));
+  --size-xs: calc(0.75rem * var(--zoom));
+  --size-s: calc(0.87rem * var(--zoom));
+  --size-m: calc(1rem * var(--zoom));
+  --size-l: calc(1.12rem * var(--zoom));
+  --size-xl: calc(1.25rem * var(--zoom));
+  --size-xxl: calc(1.75rem * var(--zoom));
+
+  // blocks sizes
+  --aside-width: calc(200px * var(--zoom));
+  --aside-width-hidden: calc(55px * var(--zoom));
+  --user-nav-width: calc(260px * var(--zoom));
+  --notification-width: calc(260px * var(--zoom));
+  --user-services-height: calc(320px * var(--zoom));
+  --input-width: calc(160px * var(--zoom));
+  --input-date-width: calc(180px * var(--zoom));
+  --select-max-height: calc(240px * var(--zoom));
+}

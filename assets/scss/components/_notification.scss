@@ -1,0 +1,39 @@
+.notification {
+  margin: 0.25em 0;
+  padding: 0.75em 1em;
+  border-radius: 4px;
+  align-items: center;
+  display: flex !important;
+  max-width: var(--notification-width);
+
+  &::before {
+    flex: 0 0 16px;
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5em;
+    background-image: url('/icons/Alert.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &.warn {
+    background-color: var(--yellow);
+  }
+
+  &.error {
+    background-color: var(--red);
+  }
+
+  &.success {
+    background-color: var(--green);
+  }
+
+  &__content {
+    font-size: var(--size-xs);
+    font-weight: 500;
+    line-height: 1.2;
+  }
+}

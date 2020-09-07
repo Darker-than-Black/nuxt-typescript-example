@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`header.vue should match the snapshot 1`] = `
+<header class="header container-fluid">
+  <div class="row header__row">
+    <div class="col-5"><a class="link header__logo"><img src="/logo.png" alt="logo" class="img header__logo--img"> <span class="header__logo--line"></span>
+        <p class="btn header__logo--text">
+          Інспект
+        </p>
+      </a></div>
+    <div class="d-flex align-items-center justify-content-end col-7"><a class="link btn header__link mr-2">
+        Інструкція користувача
+      </a> <button type="button" class="btn btn-bordered btn-flex mr-2"><img src="/icons/Products.svg" alt="products" class="img"></button> <button type="button" class="btn btn-bordered">
+        User
+        <img src="/icons/User.svg" alt="user" class="img"></button></div>
+  </div>
+  <div class="nav-modal">
+    <div>
+      <div class="d-flex align-items-center user__row">
+        <div class="user__icon">
+          VD
+        </div> <span class="user__name">
+      Влад Данилюк
+    </span>
+      </div>
+      <ul class="user-nav__list">
+        <li class="link user-nav__item">
+          Налаштування
+          <img src="/icons/Settings.svg" alt="settings" class="img"></li>
+      </ul>
+      <div class="user__row"><button type="button" class="btn btn-gray">
+          Вихід
+          <img src="/icons/Exit.svg" alt="Exit" class="img"></button></div>
+    </div>
+  </div>
+  <div class="nav-modal">
+    <div class="services">
+      <div class="user__row text-center">
+        <h3 class="services__title">
+          Cервіси Капібара
+        </h3>
+      </div>
+      <div class="user__row">
+        <ul class="services__list">
+          <li class="services__item"><img src="/services/K.png" alt="Інспект" class="services__img">
+            <p class="mb-0 mt-2">
+              Інспект
+            </p>
+          </li>
+          <li class="services__item"><img src="/services/E.png" alt="АСУР" class="services__img">
+            <p class="mb-0 mt-2">
+              АСУР
+            </p>
+          </li>
+          <li class="services__item"><img src="/services/E.png" alt="Customs Back" class="services__img">
+            <p class="mb-0 mt-2">
+              Customs Back
+            </p>
+          </li>
+          <li class="services__item"><img src="/services/E.png" alt="Infrastructure Map" class="services__img">
+            <p class="mb-0 mt-2">
+              Infrastructure Map
+            </p>
+          </li>
+          <li class="services__item"><img src="/services/E.png" alt="BI" class="services__img">
+            <p class="mb-0 mt-2">
+              BI
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+`;

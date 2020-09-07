@@ -1,0 +1,9 @@
+{
+  "BOOLEAN": "boolean",
+  "SELECT": "select",
+  "OBJECT": "object",
+  "STRING": "string",
+  "MULTI_SELECT": "multi-select",
+  "TABLE": "table",
+  "GALLERY": "gallery"
+}

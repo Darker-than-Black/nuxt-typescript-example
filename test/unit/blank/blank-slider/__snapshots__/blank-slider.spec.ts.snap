@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blank-slider/index.vue should match the snapshot 1`] = `
+<div class="slider">
+  <div class="slider__item">
+    <blank-subject-stub config="[object Object]" data="[object Object]">
+      <slider-nav-stub slidersize="2" class="ml-2"></slider-nav-stub>
+    </blank-subject-stub>
+  </div>
+</div>
+`;

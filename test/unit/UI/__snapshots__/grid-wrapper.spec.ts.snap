@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`grid-wrapper.vue should match the snapshot 1`] = `
+<b-container-stub tag="div" fluid="true">
+  <b-row-stub tag="div">
+    <b-col-stub tag="div" class="p-0 col__left">
+      <div class="col__left--content">
+        <h1>Left Col</h1> <button type="button" class="btn btn-flex mt-4 btn-transition"><img src="/icons/Arrow-left.svg" class="img"></button>
+      </div>
+    </b-col-stub>
+    <b-col-stub tag="div" class="col__right">
+      <p>Right Col</p>
+    </b-col-stub>
+  </b-row-stub>
+</b-container-stub>
+`;

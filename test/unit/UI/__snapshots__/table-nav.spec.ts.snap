@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`table-nav.vue should match the snapshot 1`] = `
+<div class="row page__nav">
+  <div class="d-flex align-items-center pr-0 justify-content-between col-6">
+    <ul role="menubar" aria-disabled="false" aria-label="Pagination" class="pagination pagination b-pagination">
+      <!---->
+      <li role="presentation" aria-hidden="true" class="page-item disabled"><span role="menuitem" aria-label="Go to previous page" aria-disabled="true" class="page-link">‹</span></li>
+      <!---->
+      <!---->
+      <li role="presentation" class="page-item"><button role="menuitemradio" type="button" aria-label="Go to page 1" aria-checked="false" aria-posinset="1" aria-setsize="494" tabindex="0" class="page-link">1</button></li>
+      <li role="presentation" class="page-item"><button role="menuitemradio" type="button" aria-label="Go to page 2" aria-checked="false" aria-posinset="2" aria-setsize="494" tabindex="-1" class="page-link">2</button></li>
+      <li role="presentation" class="page-item"><button role="menuitemradio" type="button" aria-label="Go to page 3" aria-checked="false" aria-posinset="3" aria-setsize="494" tabindex="-1" class="page-link">3</button></li>
+      <li role="presentation" class="page-item bv-d-xs-down-none"><button role="menuitemradio" type="button" aria-label="Go to page 4" aria-checked="false" aria-posinset="4" aria-setsize="494" tabindex="-1" class="page-link">4</button></li>
+      <li role="presentation" class="page-item bv-d-xs-down-none"><button role="menuitemradio" type="button" aria-label="Go to page 5" aria-checked="false" aria-posinset="5" aria-setsize="494" tabindex="-1" class="page-link">5</button></li>
+      <li role="separator" class="page-item disabled bv-d-xs-down-none"><span class="page-link">…</span></li>
+      <li role="presentation" class="page-item"><button role="menuitemradio" type="button" aria-label="Go to page 494" aria-checked="false" aria-posinset="494" aria-setsize="494" tabindex="-1" class="page-link">494</button></li>
+      <li role="presentation" aria-hidden="true" class="page-item disabled"><span role="menuitem" aria-label="Go to next page" aria-disabled="true" class="page-link">›</span></li>
+      <!---->
+    </ul>
+    <p class="title gray small ml-2">
+      Всього: 9878
+    </p>
+  </div>
+  <div class="d-flex align-items-center justify-content-end col-6">
+    <p class="title gray small">
+      Кількість на сторінку
+    </p>
+    <fieldset class="form-group m-0" id="__BVID__14">
+      <!---->
+      <div tabindex="-1" role="group" class="bv-no-focus-ring">
+        <div role="radiogroup" tabindex="-1" class="radiobtn-group__btn bv-no-focus-ring" id="__BVID__15">
+          <div class="custom-control custom-control-inline custom-radio"><input type="radio" autocomplete="off" class="custom-control-input" value="10" id="__BVID__15_BV_option_0" name="__BVID__15"><label class="custom-control-label" for="__BVID__15_BV_option_0"><span>10</span></label></div>
+          <div class="custom-control custom-control-inline custom-radio"><input type="radio" autocomplete="off" class="custom-control-input" value="20" id="__BVID__15_BV_option_1" name="__BVID__15"><label class="custom-control-label" for="__BVID__15_BV_option_1"><span>20</span></label></div>
+          <div class="custom-control custom-control-inline custom-radio"><input type="radio" autocomplete="off" class="custom-control-input" value="50" id="__BVID__15_BV_option_2" name="__BVID__15"><label class="custom-control-label" for="__BVID__15_BV_option_2"><span>50</span></label></div>
+          <div class="custom-control custom-control-inline custom-radio"><input type="radio" autocomplete="off" class="custom-control-input" value="100" id="__BVID__15_BV_option_3" name="__BVID__15"><label class="custom-control-label" for="__BVID__15_BV_option_3"><span>100</span></label></div>
+        </div>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </fieldset>
+  </div>
+</div>
+`;

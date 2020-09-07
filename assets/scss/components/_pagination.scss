@@ -1,0 +1,39 @@
+.pagination {
+  margin-bottom: 0;
+
+  .page {
+    &-item {
+      &.disabled {
+        .page-link {
+          background-color: transparent;
+        }
+      }
+
+      &.active {
+        .page-link {
+          background-color: var(--white);
+          color: var(--black);
+        }
+      }
+    }
+
+    &-link {
+      background-color: transparent;
+      border-width: 0;
+      border-radius: 6px;
+      font-size: var(--size-xs);
+      color: var(--black);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.5em;
+      height: 2.5em;
+      cursor: pointer;
+      padding: 0.25em;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}

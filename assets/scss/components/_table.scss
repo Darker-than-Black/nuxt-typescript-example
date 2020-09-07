@@ -1,0 +1,100 @@
+.table {
+  * {
+    color: var(--gray-600);
+  }
+
+  .table {
+    position: relative;
+
+    &__row {
+      transition: 0.2s all;
+
+      &:hover {
+        background-color: var(--white);
+
+        .table__td {
+          &:first-child {
+            border-radius: 6px 0 0 6px;
+          }
+
+          &:last-child {
+            border-radius: 0 6px 6px 0;
+          }
+        }
+
+        .svg-path {
+          fill: var(--gray-500);
+        }
+      }
+
+      &:first-child {
+        .table__td {
+          border-top-width: 0;
+        }
+      }
+    }
+
+    &__th {
+      font-size: var(--size-xs);
+      border-top-width: 0;
+      border-bottom-width: 0;
+      font-weight: normal;
+      background-image: none !important;
+      background-color: var(--gray);
+      position: sticky;
+      top: 0;
+
+      &[aria-sort] {
+        &::after {
+          content: '';
+          display: inline-block;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: calc(var(--size-xxs) / 2) calc(var(--size-xxs) / 2) 0;
+          border-color: var(--gray-600) transparent transparent transparent;
+          position: absolute;
+          right: 0.25em;
+          top: 50%;
+          transform: translate(0, -50%);
+        }
+      }
+
+      &[aria-sort='descending'],
+      &[aria-sort='ascending'] {
+        * {
+          color: var(--black);
+        }
+
+        &::after {
+          border-color: var(--black) transparent transparent transparent;
+        }
+      }
+
+      &[aria-sort='ascending'] {
+        &::after {
+          border-color: transparent transparent var(--black) transparent;
+          border-width: 0 calc(var(--size-xxs) / 2) calc(var(--size-xxs) / 2) calc(var(--size-xxs) / 2);
+        }
+      }
+    }
+
+    &__td {
+      font-size: var(--size-xxs);
+      border-top-color: var(--gray-300);
+
+      &.black {
+        color: var(--black);
+      }
+    }
+
+    &__item {
+      padding: 0.5em;
+      vertical-align: middle;
+
+      &.fixed-width {
+        width: calc(var(--size-m) * 2.625);
+      }
+    }
+  }
+}

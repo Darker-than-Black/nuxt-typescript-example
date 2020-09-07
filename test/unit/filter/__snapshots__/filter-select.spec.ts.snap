@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filter-select.vue should match the snapshot 1`] = `
+<div class="filter__wrapper" showoptions="true"><label for="Filter Select" class="title__field">
+    Filter Select
+    <!----></label>
+  <div class="filter">
+    <p class="filter__label">
+      Оберіть зі списку
+      <img src="/icons/Arrow-down.svg" alt="arrow" class="img filter__icon"></p>
+    <ul class="filter__list" style="display: none;">
+      <li class="filter__item">
+        Val 1
+      </li>
+      <li class="filter__item">
+        Val 2
+      </li>
+    </ul>
+  </div>
+</div>
+`;

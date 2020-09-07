@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filter/management-table.vue should match the snapshot 1`] = `
+<div class="filters">
+  <filter-multi-select-stub label="Multi select" options="[object Object],[object Object],[object Object],[object Object]" inputclasses="" value=""></filter-multi-select-stub>
+  <filter-select-stub label="select" options="[object Object],[object Object],[object Object],[object Object]" inputclasses="" value=""></filter-select-stub>
+  <filter-datalist-stub label="Datalist" options="Оберіть значення,Name 2,lorem ipsum,Name 4" inputclasses="" listlink="datalist" value=""></filter-datalist-stub>
+  <datepickerrange-stub label="Date range" value=""></datepickerrange-stub>
+</div>
+`;

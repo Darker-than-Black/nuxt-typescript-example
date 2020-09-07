@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`page entry journal list should match the snapshot 1`] = `
+<div class="page container-fluid">
+  <div class="row mb-3">
+    <div class="col-8">
+      <h1 class="title">
+        Зона митного контролю
+      </h1>
+    </div>
+    <div class="text-right col-4"><a type="button" class="btn btn-black">
+        Створити талон +
+      </a></div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <table role="table" aria-busy="false" aria-colcount="6" class="table b-table table" id="__BVID__32">
+        <!---->
+        <!---->
+        <thead role="rowgroup" class="">
+          <!---->
+          <tr role="row" class="">
+            <th role="columnheader" scope="col" aria-colindex="1" class="table__item table__th">
+              <div>Тип ат</div>
+            </th>
+            <th role="columnheader" scope="col" aria-colindex="2" class="table__item table__th">
+              <div>Номер ат</div>
+            </th>
+            <th role="columnheader" scope="col" aria-colindex="3" class="table__item table__th">
+              <div>ПІБ водія</div>
+            </th>
+            <th role="columnheader" scope="col" aria-colindex="4" class="table__item table__th">
+              <div>Перевізник</div>
+            </th>
+            <th role="columnheader" scope="col" aria-colindex="5" class="table__item table__th"><img src="/icons/Clockface.svg" alt="Clockface" title="Час вїзду і виїзду" class="img img__size-l"></th>
+            <th role="columnheader" scope="col" aria-colindex="6" aria-label="Card Number" class="table__item table__th fixed-width">
+              <div></div>
+            </th>
+          </tr>
+        </thead>
+        <tbody role="rowgroup">
+          <!---->
+          <tr role="row" class="b-table-empty-row table__row">
+            <td colspan="6" role="cell" class="">
+              <div role="alert" aria-live="polite">
+                <div class="text-center my-2">There are no records to show</div>
+              </div>
+            </td>
+          </tr>
+          <!---->
+        </tbody>
+        <!---->
+      </table>
+    </div>
+  </div>
+  <div class="row page__nav">
+    <div class="d-flex align-items-center pr-0 justify-content-between col-6">
+      <ul role="menubar" aria-disabled="false" aria-label="Pagination" class="pagination pagination b-pagination">
+        <!---->
+        <li role="presentation" aria-hidden="true" class="page-item disabled"><span role="menuitem" aria-label="Go to previous page" aria-disabled="true" class="page-link">‹</span></li>
+        <!---->
+        <!---->
+        <li role="presentation" class="page-item active"><button role="menuitemradio" type="button" aria-label="Go to page 1" aria-checked="true" aria-posinset="1" aria-setsize="1" tabindex="0" class="page-link">1</button></li>
+        <!---->
+        <!---->
+        <li role="presentation" aria-hidden="true" class="page-item disabled"><span role="menuitem" aria-label="Go to next page" aria-disabled="true" class="page-link">›</span></li>
+        <!---->
+      </ul>
+      <p class="title gray small ml-2">
+        Всього: 10
+      </p>
+    </div>
+    <div class="d-flex align-items-center justify-content-end col-6">
+      <p class="title gray small">
+        Кількість на сторінку
+      </p>
+      <fieldset class="form-group m-0" id="__BVID__46">
+        <!---->
+        <div tabindex="-1" role="group" class="bv-no-focus-ring">
+          <div role="radiogroup" tabindex="-1" class="radiobtn-group__btn bv-no-focus-ring" id="__BVID__47">
+            <div class="custom-control custom-control-inline custom-radio"><input type="radio" autocomplete="off" class="custom-control-input" value="10" id="__BVID__47_BV_option_0" name="__BVID__47"><label class="custom-control-label" for="__BVID__47_BV_option_0"><span>10</span></label></div>
+            <div class="custom-control custom-control-inline custom-radio"><input type="radio" autocomplete="off" class="custom-control-input" value="20" id="__BVID__47_BV_option_1" name="__BVID__47"><label class="custom-control-label" for="__BVID__47_BV_option_1"><span>20</span></label></div>
+            <div class="custom-control custom-control-inline custom-radio"><input type="radio" autocomplete="off" class="custom-control-input" value="50" id="__BVID__47_BV_option_2" name="__BVID__47"><label class="custom-control-label" for="__BVID__47_BV_option_2"><span>50</span></label></div>
+            <div class="custom-control custom-control-inline custom-radio"><input type="radio" autocomplete="off" class="custom-control-input" value="100" id="__BVID__47_BV_option_3" name="__BVID__47"><label class="custom-control-label" for="__BVID__47_BV_option_3"><span>100</span></label></div>
+          </div>
+          <!---->
+          <!---->
+          <!---->
+        </div>
+      </fieldset>
+    </div>
+  </div>
+</div>
+`;

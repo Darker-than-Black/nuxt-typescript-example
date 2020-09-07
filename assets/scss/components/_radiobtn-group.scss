@@ -1,0 +1,44 @@
+.radiobtn-group {
+  &__btn {
+    .custom-radio {
+      padding: 0;
+      margin-right: 0;
+      margin-left: 0.5em;
+    }
+
+    .custom-control-label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.5em;
+      height: 2.5em;
+      cursor: pointer;
+      padding: 0.25em;
+      font-size: var(--size-xs);
+
+      &::before,
+      &::after {
+        display: none;
+      }
+    }
+
+    input[type='radio'] {
+      &:indeterminate,
+      &:checked,
+      &:active {
+        ~ .custom-control-label {
+          background-color: var(--white);
+          border-radius: 6px;
+        }
+      }
+
+      &:focus {
+        ~ .custom-control-label {
+          &::before {
+            box-shadow: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "default": [
+    {
+      "value": "1",
+      "text": "Оберіть значення"
+    },
+    {
+      "value": "2",
+      "text": "Name 2"
+    },
+    {
+      "value": "3",
+      "text": "Name 3"
+    },
+    {
+      "value": "4",
+      "text": "Name 4"
+    }
+  ],
+  "documents": [
+    {
+      "value": "Doc 1",
+      "text": "Doc 1"
+    },
+    {
+      "value": "Doc 2",
+      "text": "Doc 2"
+    },
+    {
+      "value": "Doc 3",
+      "text": "Doc 3"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filter-wrapper.vue should match the snapshot 1`] = `
+<div class="filter__wrapper"><label class="title__field">
+
+    <!----></label>
+  <div class="filter">
+    <p class="filter__label">
+    <h1>Header</h1> <img src="/icons/Arrow-down.svg" alt="arrow" class="img filter__icon">
+    </p>
+    <p>lorem ipsum</p>
+  </div>
+</div>
+`;

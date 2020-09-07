@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`aside.vue should match the snapshot 1`] = `
+<div class="timer">
+  <p class="timer__text">
+    Час на обробку
+  </p>
+  <!---->
+</div>
+`;

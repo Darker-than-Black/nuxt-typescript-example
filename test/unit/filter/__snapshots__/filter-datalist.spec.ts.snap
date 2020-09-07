@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filter-select.vue should match the snapshot 1`] = `
+<div class="d-inline-block" showoptions="true">
+  <div><label for="Filter Select" class="title__field">
+      Filter Select
+      <!----></label>
+    <div class="position-relative"><input id="Filter Select" name="Filter Select" placeholder="Оберіть зі списку" type="text" list="linkToDataLink" class="input input__padding-right"> <img src="/icons/Arrow-down.svg" alt="arrow" class="img filter__icon"></div>
+  </div> <datalist id="linkToDataLink">
+    <option value="asd"></option>
+    <option value="lorem"></option>
+    <option value="ipsum"></option>
+  </datalist>
+</div>
+`;

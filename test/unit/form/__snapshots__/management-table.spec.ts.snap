@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`management-table.vue should match the snapshot 1`] = `
+<b-container-stub tag="div" fluid="true" class="p-0">
+  <b-row-stub tag="div" class="position-relative align-items-center">
+    <b-col-stub cols="6" tag="div">
+      <factory-field-stub value="" config="[object Object]"></factory-field-stub>
+    </b-col-stub>
+    <!---->
+    <b-col-stub cols="5" tag="div">
+      <factory-field-stub value="" config="[object Object]"></factory-field-stub>
+    </b-col-stub>
+    <!---->
+  </b-row-stub>
+  <b-row-stub tag="div">
+    <b-col-stub cols="11" tag="div" class="text-right"><button type="button" class="btn btn-transparent">
+        Додати документ <b>+</b></button></b-col-stub>
+  </b-row-stub>
+</b-container-stub>
+`;

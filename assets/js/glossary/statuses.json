@@ -1,0 +1,54 @@
+{
+  "OPEN": {
+    "text": "Збережено",
+    "color": "green"
+  },
+  "ACTIVE": {
+    "text": "Активна",
+    "color": "green"
+  },
+  "PARTIAL_ARRIVAL": {
+    "text": "Частково прийнято",
+    "color": "green"
+  },
+  "READY_FOR_REVIEW": {
+    "text": "Очікує взяття в роботу",
+    "color": "green"
+  },
+  "IN_REVIEW": {
+    "text": "В роботі",
+    "color": "green"
+  },
+  "IN_EXTENDED_REVIEW": {
+    "text": "В затримці",
+    "color": "green"
+  },
+  "CUSTOMS_PROCEDURE_DONE": {
+    "text": "Очікує оплати",
+    "color": "green"
+  },
+  "INNER_TRANSIT": {
+    "text": "На контролі доставки",
+    "color": "green"
+  },
+  "PARTIALLY_COMPLETED_TRANSIT": {
+    "text": "В процесі завершення",
+    "color": "green"
+  },
+  "WAITING_FOR_CLEARANCE": {
+    "text": "Очікує подання",
+    "color": "green"
+  },
+  "CLOSED": {
+    "text": "Оформлено",
+    "color": "red"
+  },
+  "RECALLED": {
+    "text": "Відкликано",
+    "color": "red"
+  },
+  "DECLINED": {
+    "text": "Відмовлено",
+    "color": "red"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "content": [
+    {
+      "cardNumber": "5f1050611beb0a0a3286d76c",
+      "plateNumber": "AA2341CB",
+      "brand": "SCANIA",
+      "numberOfPersons": 4,
+      "driver": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "patronym": "Tarasovych",
+        "identifier": null
+      },
+      "carrier": {
+        "name": "test_carrier",
+        "identifier": null
+      }
+    },
+    {
+      "cardNumber": "5f1050611beb0a0a3286d76d",
+      "plateNumber": "AA3341CB",
+      "brand": "VOLVO",
+      "numberOfPersons": 1
+    },
+    {
+      "cardNumber": "5f1050a2517b085759054e06",
+      "plateNumber": "AA3341CB",
+      "brand": "Skoda",
+      "numberOfPersons": 1,
+      "driver": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "patronym": "Tarasovych",
+        "identifier": null
+      },
+      "carrier": {
+        "name": "test_carrier",
+        "identifier": null
+      }
+    },
+    {
+      "cardNumber": "5f1050a2517b085759054e07",
+      "plateNumber": "AA3341CB",
+      "brand": "VOLVO",
+      "numberOfPersons": 1
+    },
+    {
+      "cardNumber": "5f1050b90e3def16b9fcc4c3",
+      "plateNumber": "BC3341CB",
+      "brand": "Audi",
+      "numberOfPersons": 2,
+      "driver": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "patronym": "Tarasovych",
+        "identifier": null
+      },
+      "carrier": {
+        "name": "test_carrier",
+        "identifier": null
+      }
+    },
+    {
+      "cardNumber": "5f1050ba0e3def16b9fcc4c4",
+      "plateNumber": "AA3341CB",
+      "brand": "VOLVO",
+      "numberOfPersons": 1
+    },
+    {
+      "cardNumber": "5f1050f165e3a314b690ccd3",
+      "plateNumber": "AA3341CB",
+      "brand": "Toyota",
+      "numberOfPersons": 1,
+      "driver": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "patronym": "Tarasovych",
+        "identifier": null
+      },
+      "carrier": {
+        "name": "test_carrier",
+        "identifier": null
+      }
+    },
+    {
+      "cardNumber": "5f1050f165e3a314b690ccd4",
+      "plateNumber": "AA3341CB",
+      "brand": "VOLVO",
+      "numberOfPersons": 1
+    },
+    {
+      "cardNumber": "5f1810224493ce7d758770bf",
+      "plateNumber": "AA3537MH",
+      "brand": "Skoda",
+      "numberOfPersons": 2,
+      "vehicleType": {
+        "id": 0,
+        "name": "string"
+      }
+    },
+    {
+      "cardNumber": "5f1fd55aea0f5b4516302f8f",
+      "plateNumber": "string",
+      "brand": "string",
+      "numberOfPersons": 0,
+      "vehicleType": {
+        "id": 0,
+        "name": "string"
+      },
+      "driver": {
+        "firstName": "string",
+        "lastName": "string",
+        "patronym": "string",
+        "identifier": "string"
+      },
+      "carrier": {
+        "name": "string",
+        "identifier": "string"
+      }
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": false,
+      "unsorted": true,
+      "empty": true
+    },
+    "offset": 0,
+    "pageNumber": 0,
+    "pageSize": 10,
+    "paged": true,
+    "unpaged": false
+  },
+  "totalPages": 1,
+  "totalElements": 10,
+  "last": true,
+  "number": 0,
+  "sort": {
+    "sorted": false,
+    "unsorted": true,
+    "empty": true
+  },
+  "size": 10,
+  "numberOfElements": 10,
+  "first": true,
+  "empty": false
+}

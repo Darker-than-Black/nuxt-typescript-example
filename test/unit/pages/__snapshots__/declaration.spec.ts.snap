@@ -1,0 +1,594 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages declaration _id.vue should match the snapshot 1`] = `
+<div class="declaration container-fluid">
+  <div class="row mb-5">
+    <div class="d-flex align-items-center col-6"><a class="link"><img src="/icons/Arrow-right.svg" alt="prev page" class="img img__rotate left"></a>
+      <div class="declaration__status mr-3 ml-3">
+        Збережено
+      </div>
+      <h1 class="title">
+        Декларація
+
+
+      </h1>
+    </div>
+    <div class="text-right col-6">
+      <!---->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6">
+      <article class="declaration__col">
+        <div class="declaration__item" style="width: 50%;">
+          <!---->
+          <!---->
+          <section class="blank-item">
+            <div class="blank-item__header">
+              <h4 class="blank-item__title">
+                2. Відправник/Експортер
+              </h4> <span class="blank-item__gray ml-2">
+      UA
+    </span>
+            </div>
+            <div class="blank-item__content">
+              <div class="blank-item__content--element">
+                <div class="blank-item__gray">
+                  Компанія
+                </div>
+                <div class="blank-item__text">
+                  Full Name
+                </div>
+              </div>
+              <div>
+                <div class="blank-item__gray mt-3">
+                  Адреса
+                </div>
+                <ul class="blank-item__list">
+                  <li class="blank-item__text blank-item__btn">
+                    UA
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    123123
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    Kyiv
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    District
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    Province
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    Some Street
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    4A
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    12B
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    12C
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="declaration__item" style="width: 25%;">
+          <section class="blank-item">
+            <div class="blank-item__header">
+              <div>
+                <div class="blank-item__gray">
+                  1. Тип декларації
+                </div>
+                <ul class="blank-item__list">
+                  <li title="IM" class="blank-item__text blank-item__btn fixed-length">
+                    IM
+                  </li>
+                  <li title="40" class="blank-item__text blank-item__btn fixed-length">
+                    40
+                  </li>
+                  <li title="CUSTOMS_DECLARATION" class="blank-item__text blank-item__btn fixed-length">
+                    CUSTOMS_DECLARATION
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="blank-item__content grid">
+              <div class="blank-item__content--element w-50">
+                <div class="blank-item__gray">
+                  3. Додаткові аркуші
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  —
+                </div>
+              </div>
+              <div class="blank-item__content--element w-50">
+                <div class="blank-item__gray">
+                  4. Відвант. спец.
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  SHIPMENT SPEC STUB
+                </div>
+              </div>
+              <div class="blank-item__content--element w-50">
+                <div class="blank-item__gray">
+                  5. Товарів
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  111
+                </div>
+              </div>
+              <div class="blank-item__content--element w-50">
+                <div class="blank-item__gray">
+                  6. Місць
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  222
+                </div>
+              </div>
+            </div>
+          </section>
+          <!---->
+          <!---->
+        </div>
+        <div class="declaration__item" style="width: 50%;">
+          <!---->
+          <!---->
+          <section class="blank-item">
+            <div class="blank-item__header">
+              <h4 class="blank-item__title">
+                8. Одержувач/Імпортер
+              </h4> <span class="blank-item__gray ml-2">
+      UA
+    </span>
+            </div>
+            <div class="blank-item__content">
+              <div class="blank-item__content--element">
+                <div class="blank-item__gray">
+                  Компанія
+                </div>
+                <div class="blank-item__text">
+                  Full Name
+                </div>
+              </div>
+              <div class="blank-item__content--element">
+                <div class="blank-item__gray mt-3">
+                  ЄДРПОУ
+                </div>
+                <div class="blank-item__text">
+                  1234567
+                </div>
+              </div>
+              <div>
+                <div class="blank-item__gray mt-3">
+                  Адреса
+                </div>
+                <ul class="blank-item__list">
+                  <li class="blank-item__text blank-item__btn">
+                    UA
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    123123
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    Kyiv
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    District
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    Province
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    Some Street
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    4A
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    12B
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    12C
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="declaration__item" style="width: 50%;">
+          <!---->
+          <div class="slider">
+            <div class="slider__item">
+              <section class="blank-item">
+                <div class="blank-item__header">
+                  <h4 class="blank-item__title">
+                    9. Відповідальний за фінансове врегулювання
+                  </h4> <span class="blank-item__gray ml-2">
+      UA
+    </span>
+                  <div class="slider-nav ml-2"><button disabled="disabled" class="btn btn-flex btn-transparent small mr-2"><img src="/icons/Arrow-right.svg" alt="next" class="img img__rotate left"></button> <span class="mr-2 slider-nav__text">
+    1 / 2
+  </span> <button class="btn btn-flex btn-transparent small"><img src="/icons/Arrow-right.svg" alt="next" class="img"></button></div>
+                </div>
+                <div class="blank-item__content">
+                  <div class="blank-item__content--element">
+                    <div class="blank-item__gray">
+                      Компанія
+                    </div>
+                    <div class="blank-item__text">
+                      Full Name
+                    </div>
+                  </div>
+                  <div class="blank-item__content--element">
+                    <div class="blank-item__gray mt-3">
+                      ЄДРПОУ
+                    </div>
+                    <div class="blank-item__text">
+                      1234567
+                    </div>
+                  </div>
+                  <div>
+                    <div class="blank-item__gray mt-3">
+                      Адреса
+                    </div>
+                    <ul class="blank-item__list">
+                      <li class="blank-item__text blank-item__btn">
+                        UA
+                      </li>
+                      <li class="blank-item__text blank-item__btn">
+                        123123
+                      </li>
+                      <li class="blank-item__text blank-item__btn">
+                        Kyiv
+                      </li>
+                      <li class="blank-item__text blank-item__btn">
+                        District
+                      </li>
+                      <li class="blank-item__text blank-item__btn">
+                        Province
+                      </li>
+                      <li class="blank-item__text blank-item__btn">
+                        Some Street
+                      </li>
+                      <li class="blank-item__text blank-item__btn">
+                        4A
+                      </li>
+                      <li class="blank-item__text blank-item__btn">
+                        12B
+                      </li>
+                      <li class="blank-item__text blank-item__btn">
+                        12C
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <!---->
+        </div>
+        <div class="declaration__item" style="width: 50%;">
+          <!---->
+          <!---->
+          <section class="blank-item">
+            <div class="blank-item__header">
+              <h4 class="blank-item__title">
+                14. Декларант/Представник
+              </h4> <span class="blank-item__gray ml-2">
+      UA
+    </span>
+            </div>
+            <div class="blank-item__content">
+              <div class="blank-item__content--element">
+                <div class="blank-item__gray">
+                  Компанія
+                </div>
+                <div class="blank-item__text">
+                  Full Name
+                </div>
+              </div>
+              <div class="blank-item__content--element">
+                <div class="blank-item__gray mt-3">
+                  ЄДРПОУ
+                </div>
+                <div class="blank-item__text">
+                  1234567
+                </div>
+              </div>
+              <div>
+                <div class="blank-item__gray mt-3">
+                  Адреса
+                </div>
+                <ul class="blank-item__list">
+                  <li class="blank-item__text blank-item__btn">
+                    UA
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    123123
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    Kyiv
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    District
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    Province
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    Some Street
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    4A
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    12B
+                  </li>
+                  <li class="blank-item__text blank-item__btn">
+                    12C
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="declaration__item" style="width: 50%;">
+          <section class="blank-item revert">
+            <div class="blank-item__header">
+              <div>
+                <div class="blank-item__gray">
+                  20. Умови поставки
+                </div>
+                <ul class="blank-item__list">
+                  <li title="TERMS_CODE" class="blank-item__text blank-item__btn">
+                    TERMS_CODE
+                  </li>
+                  <li title="UA" class="blank-item__text blank-item__btn">
+                    UA
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="blank-item__content grid p-0">
+              <div class="blank-item__content--element border-right border-bottom padding-small w-50">
+                <div class="blank-item__gray">
+                  11. Торг. країна
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  UA
+                  <span class="blank-item__gray">
+            UK
+          </span></div>
+              </div>
+              <div class="blank-item__content--element border-bottom padding-small w-50">
+                <div class="blank-item__gray">
+                  12. Митна вартість
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  999.2222
+                </div>
+              </div>
+              <div class="blank-item__content--element border-right padding-small w-50">
+                <div class="blank-item__gray">
+                  15. Країна відправлення
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  Poland
+                  <span class="blank-item__gray">
+            POL
+          </span></div>
+              </div>
+              <div class="blank-item__content--element padding-small w-50">
+                <div class="blank-item__gray">
+                  17. Країна призначення
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  ORIGIN_CONTRY_NAME
+                  <span class="blank-item__gray">
+            POL
+          </span></div>
+              </div>
+            </div>
+          </section>
+          <!---->
+          <!---->
+        </div>
+        <div class="declaration__item" style="width: 50%;">
+          <section class="blank-item">
+            <div class="blank-item__header d-none"></div>
+            <div class="blank-item__content grid p-0">
+              <div class="blank-item__content--element border-right padding-small w-65">
+                <div class="blank-item__gray">
+                  18. Транспортний засіб відправлення
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  some vehicle info
+                  <span class="blank-item__gray">
+            UA
+          </span></div>
+              </div>
+              <div class="blank-item__content--element padding-small w-35">
+                <div class="blank-item__gray">
+                  19. Контейнер
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  true
+                </div>
+              </div>
+            </div>
+          </section>
+          <!---->
+          <!---->
+        </div>
+        <div class="declaration__item" style="width: 50%;">
+          <section class="blank-item">
+            <div class="blank-item__header d-none"></div>
+            <div class="blank-item__content grid p-0">
+              <div class="blank-item__content--element border-right padding-small w-33">
+                <div class="blank-item__gray">
+                  22. Заг.факт.вартість
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  888.022
+                  <span class="blank-item__gray">
+            UAH
+          </span></div>
+              </div>
+              <div class="blank-item__content--element border-right padding-small w-33">
+                <div class="blank-item__gray">
+                  23. Курс валюти
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  10
+                </div>
+              </div>
+              <div class="blank-item__content--element padding-small w-33">
+                <div class="blank-item__gray">
+                  23. Хар. угоди
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  AGR_TYPE_CODE
+                  <span class="blank-item__gray">
+            UAH
+          </span></div>
+              </div>
+            </div>
+          </section>
+          <!---->
+          <!---->
+        </div>
+        <div class="declaration__item" style="width: 50%;">
+          <section class="blank-item">
+            <div class="blank-item__header d-none"></div>
+            <div class="blank-item__content p-0">
+              <div class="blank-item__content--element padding-small">
+                <div class="blank-item__gray">
+                  21. Транспортний засіб на кордоні
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  some vehicle info
+                  <span class="blank-item__gray">
+            UA
+          </span></div>
+              </div>
+            </div>
+          </section>
+          <!---->
+          <!---->
+        </div>
+        <div class="declaration__item" style="width: 50%;">
+          <section class="blank-item">
+            <div class="blank-item__header d-none"></div>
+            <div class="blank-item__content grid p-0">
+              <div class="blank-item__content--element border-right padding-small w-33">
+                <div class="blank-item__gray">
+                  25. Вид транспорту на кордоні
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  —
+                </div>
+              </div>
+              <div class="blank-item__content--element border-right padding-small w-33">
+                <div class="blank-item__gray">
+                  26. Вид транспорту в межах країни
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  —
+                </div>
+              </div>
+              <div class="blank-item__content--element padding-small w-33">
+                <div class="blank-item__gray">
+                  27. Місце за(роз)вантаж.
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  Loading unloading place
+                </div>
+              </div>
+            </div>
+          </section>
+          <!---->
+          <!---->
+        </div>
+        <div class="declaration__item" style="width: 50%;">
+          <section class="blank-item">
+            <div class="blank-item__header d-none"></div>
+            <div class="blank-item__content grid p-0">
+              <div class="blank-item__content--element padding-small w-50 border-right">
+                <div class="blank-item__gray">
+                  29. Митниця на кордоні
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  CUST atuhority code
+                  <span class="blank-item__gray">
+            2020-02-20
+          </span></div>
+              </div>
+              <div class="blank-item__content--element padding-small w-50">
+                <div class="blank-item__gray">
+                  30. Місцезнаходження товарів
+                </div>
+                <div class="blank-item__text blank-item__flex">
+                  Gooods localtion
+                </div>
+              </div>
+            </div>
+          </section>
+          <!---->
+          <!---->
+        </div>
+        <div class="declaration__item" style="width: 50%;">
+          <!---->
+          <div class="slider">
+            <div class="slider__item">
+              <section class="blank-item">
+                <div class="blank-item__header">
+                  <h4 class="blank-item__title">
+                    28. Фінансові та банковскі відомості
+                  </h4>
+                  <!---->
+                  <div class="slider-nav ml-2"><button disabled="disabled" class="btn btn-flex btn-transparent small mr-2"><img src="/icons/Arrow-right.svg" alt="next" class="img img__rotate left"></button> <span class="mr-2 slider-nav__text">
+    1 / 1
+  </span> <button disabled="disabled" class="btn btn-flex btn-transparent small"><img src="/icons/Arrow-right.svg" alt="next" class="img"></button></div>
+                </div>
+                <div class="blank-item__content grid p-0">
+                  <div class="blank-item__content--element padding-small w-50">
+                    <div class="blank-item__gray">
+                      ЄДРПОУ
+                    </div>
+                    <div class="blank-item__text">
+                      123456789
+                    </div>
+                  </div>
+                  <div class="blank-item__content--element padding-small w-50">
+                    <div class="blank-item__gray mt-3">
+                      Назва банку
+                    </div>
+                    <div class="blank-item__text">
+                      Bank nameeee
+                    </div>
+                  </div>
+                  <div class="blank-item__content--element padding-small w-50">
+                    <div class="blank-item__gray mt-3">
+                      МФО
+                    </div>
+                    <div class="blank-item__text">
+                      BANK MFO
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <!---->
+        </div>
+      </article>
+    </div>
+    <div class="col-6"></div>
+  </div>
+</div>
+`;

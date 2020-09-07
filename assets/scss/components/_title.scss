@@ -1,0 +1,26 @@
+.title {
+  color: var(--black);
+  font-size: var(--size-xl);
+  font-weight: 500;
+  margin-bottom: 0;
+
+  &.gray {
+    color: var(--gray-600);
+  }
+
+  &.small {
+    font-size: var(--size-xs);
+  }
+
+  &.big {
+    font-size: var(--size-xxl);
+  }
+
+  &__field {
+    width: 100%;
+    font-size: var(--size-xxs);
+    color: var(--gray-600);
+    margin-bottom: 0.5em;
+    line-height: 1.4;
+  }
+}

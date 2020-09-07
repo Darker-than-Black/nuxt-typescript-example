@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`page declarations list should match the snapshot 1`] = `
+<div class="page container-fluid">
+  <div class="row mb-3">
+    <div class="col-12">
+      <h1 class="title">
+        Декларації
+      </h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <table role="table" aria-busy="false" aria-colcount="7" class="table b-table table" id="__BVID__31">
+        <!---->
+        <!---->
+        <thead role="rowgroup" class="">
+          <!---->
+          <tr role="row" class="">
+            <th role="columnheader" scope="col" tabindex="0" aria-colindex="1" aria-sort="none" class="table__item table__th">
+              <div>№ МД/ПМД</div><span class="sr-only"> (Click to sort Ascending)</span>
+            </th>
+            <th role="columnheader" scope="col" tabindex="0" aria-colindex="2" class="table__item table__th">
+              <div>Тип декларації</div>
+            </th>
+            <th role="columnheader" scope="col" tabindex="0" aria-colindex="3" class="table__item table__th">
+              <div>Відправник</div>
+            </th>
+            <th role="columnheader" scope="col" tabindex="0" aria-colindex="4" class="table__item table__th">
+              <div>Одержувач</div>
+            </th>
+            <th role="columnheader" scope="col" tabindex="0" aria-colindex="5" aria-sort="none" class="table__item table__th"><img src="/icons/Approved.svg" alt="approved" title="Статус" class="img img__size-l"><span class="sr-only"> (Click to sort Ascending)</span></th>
+            <th role="columnheader" scope="col" tabindex="0" aria-colindex="6" aria-sort="none" class="table__item table__th"><img src="/icons/Clockface.svg" alt="Clockface" title="Час взяття в роботу інспектором" class="img img__size-l"><span class="sr-only"> (Click to sort Ascending)</span></th>
+            <th role="columnheader" scope="col" tabindex="0" aria-colindex="7" aria-label="Id" class="table__item table__th fixed-width">
+              <div></div>
+            </th>
+          </tr>
+        </thead>
+        <tbody role="rowgroup">
+          <!---->
+          <tr role="row" class="b-table-empty-row table__row">
+            <td colspan="7" role="cell" class="">
+              <div role="alert" aria-live="polite">
+                <div class="text-center my-2">There are no records to show</div>
+              </div>
+            </td>
+          </tr>
+          <!---->
+        </tbody>
+        <!---->
+      </table>
+    </div>
+  </div>
+  <div class="row page__nav">
+    <div class="d-flex align-items-center pr-0 justify-content-between col-6">
+      <ul role="menubar" aria-disabled="false" aria-label="Pagination" class="pagination pagination b-pagination">
+        <!---->
+        <li role="presentation" aria-hidden="true" class="page-item disabled"><span role="menuitem" aria-label="Go to previous page" aria-disabled="true" class="page-link">‹</span></li>
+        <!---->
+        <!---->
+        <li role="presentation" class="page-item active"><button role="menuitemradio" type="button" aria-label="Go to page 1" aria-checked="true" aria-posinset="1" aria-setsize="988" tabindex="0" class="page-link">1</button></li>
+        <li role="presentation" class="page-item"><button role="menuitemradio" type="button" aria-label="Go to page 2" aria-checked="false" aria-posinset="2" aria-setsize="988" tabindex="-1" class="page-link">2</button></li>
+        <li role="presentation" class="page-item"><button role="menuitemradio" type="button" aria-label="Go to page 3" aria-checked="false" aria-posinset="3" aria-setsize="988" tabindex="-1" class="page-link">3</button></li>
+        <li role="presentation" class="page-item bv-d-xs-down-none"><button role="menuitemradio" type="button" aria-label="Go to page 4" aria-checked="false" aria-posinset="4" aria-setsize="988" tabindex="-1" class="page-link">4</button></li>
+        <li role="presentation" class="page-item bv-d-xs-down-none"><button role="menuitemradio" type="button" aria-label="Go to page 5" aria-checked="false" aria-posinset="5" aria-setsize="988" tabindex="-1" class="page-link">5</button></li>
+        <li role="separator" class="page-item disabled bv-d-xs-down-none"><span class="page-link">…</span></li>
+        <li role="presentation" class="page-item"><button role="menuitemradio" type="button" aria-label="Go to page 988" aria-checked="false" aria-posinset="988" aria-setsize="988" tabindex="-1" class="page-link">988</button></li>
+        <li role="presentation" class="page-item"><button role="menuitem" type="button" tabindex="-1" aria-label="Go to next page" class="page-link">›</button></li>
+        <!---->
+      </ul>
+      <p class="title gray small ml-2">
+        Всього: 9878
+      </p>
+    </div>
+    <div class="d-flex align-items-center justify-content-end col-6">
+      <p class="title gray small">
+        Кількість на сторінку
+      </p>
+      <fieldset class="form-group m-0" id="__BVID__46">
+        <!---->
+        <div tabindex="-1" role="group" class="bv-no-focus-ring">
+          <div role="radiogroup" tabindex="-1" class="radiobtn-group__btn bv-no-focus-ring" id="__BVID__47">
+            <div class="custom-control custom-control-inline custom-radio"><input type="radio" autocomplete="off" class="custom-control-input" value="10" id="__BVID__47_BV_option_0" name="__BVID__47"><label class="custom-control-label" for="__BVID__47_BV_option_0"><span>10</span></label></div>
+            <div class="custom-control custom-control-inline custom-radio"><input type="radio" autocomplete="off" class="custom-control-input" value="20" id="__BVID__47_BV_option_1" name="__BVID__47"><label class="custom-control-label" for="__BVID__47_BV_option_1"><span>20</span></label></div>
+            <div class="custom-control custom-control-inline custom-radio"><input type="radio" autocomplete="off" class="custom-control-input" value="50" id="__BVID__47_BV_option_2" name="__BVID__47"><label class="custom-control-label" for="__BVID__47_BV_option_2"><span>50</span></label></div>
+            <div class="custom-control custom-control-inline custom-radio"><input type="radio" autocomplete="off" class="custom-control-input" value="100" id="__BVID__47_BV_option_3" name="__BVID__47"><label class="custom-control-label" for="__BVID__47_BV_option_3"><span>100</span></label></div>
+          </div>
+          <!---->
+          <!---->
+          <!---->
+        </div>
+      </fieldset>
+    </div>
+  </div>
+</div>
+`;

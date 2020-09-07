@@ -1,0 +1,11 @@
+@mixin input-style {
+  width: var(--input-width);
+  background-color: var(--white);
+  border: 1px solid var(--gray-300);
+  font-size: var(--size-xs);
+  border-radius: 4px;
+}
+
+@mixin bg-color-opacity ($color, $opacity: 1) {
+  background-color: rgba($color, $opacity);
+}

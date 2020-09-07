@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`input.vue should match the snapshot 1`] = `
+<field-wrapper-stub label="">
+  <div class="position-relative"><input id="" name="" placeholder="" type="text" list="" class="input"> </div>
+</field-wrapper-stub>
+`;

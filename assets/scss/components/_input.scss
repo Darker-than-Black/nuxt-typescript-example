@@ -1,0 +1,35 @@
+.input {
+  @include input-style;
+  font-family: e-Ukraine, sans-serif;
+  padding: 0.5em;
+
+  &.invalid {
+    border-color: var(--red-100);
+  }
+
+  &::placeholder {
+    color: var(--gray-400);
+  }
+
+  &::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+
+  &__padding-right {
+    padding: 0.5em 1.5em 0.5em 0.5em;
+  }
+
+  &__date {
+    width: var(--input-date-width);
+    padding-right: 2.25em;
+  }
+
+  &__error {
+    position: absolute;
+    bottom: 4px;
+    font-weight: 300;
+    font-size: var(--size-xxs);
+    color: var(--red-100);
+    width: 100%;
+  }
+}

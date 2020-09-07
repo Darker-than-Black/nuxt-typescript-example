@@ -1,0 +1,11 @@
+.page {
+  position: relative;
+
+  &__nav {
+    background-color: var(--gray);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: sticky;
+    bottom: 0;
+  }
+}

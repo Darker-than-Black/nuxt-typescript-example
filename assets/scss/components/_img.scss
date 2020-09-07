@@ -1,0 +1,17 @@
+.img {
+  display: inline-block;
+  width: 1em;
+  height: auto;
+
+  &__size {
+    &-l {
+      width: 1.5em;
+    }
+  }
+
+  &__rotate {
+    &.left {
+      transform: rotate(180deg);
+    }
+  }
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "key": "declarationNumber",
+    "label": "№ МД/ПМД",
+    "sortable": true,
+    "tdClass": "table__item table__td",
+    "thClass": "table__item table__th"
+  },
+  {
+    "key": "declaration.clearanceTypeCode",
+    "label": "Тип декларації",
+    "sortable": false,
+    "tdClass": "table__item table__td black",
+    "thClass": "table__item table__th"
+  },
+  {
+    "key": "declaration.exporter.fullName",
+    "label": "Відправник",
+    "sortable": false,
+    "tdClass": "table__item table__td",
+    "thClass": "table__item table__th"
+  },
+  {
+    "key": "declaration.recipient.fullName",
+    "label": "Одержувач",
+    "sortable": false,
+    "tdClass": "table__item table__td",
+    "thClass": "table__item table__th"
+  },
+  {
+    "key": "status",
+    "label": "Статус",
+    "sortable": true,
+    "tdClass": "table__item table__td",
+    "thClass": "table__item table__th"
+  },
+  {
+    "key": "inspectionStartedAt",
+    "label": "Час взяття в роботу інспектором",
+    "sortable": true,
+    "tdClass": "table__item table__td",
+    "thClass": "table__item table__th"
+  },
+  {
+    "key": "id",
+    "label": "",
+    "sortable": false,
+    "tdClass": "table__item table__td fixed-width",
+    "thClass": "table__item table__th fixed-width"
+  }
+]

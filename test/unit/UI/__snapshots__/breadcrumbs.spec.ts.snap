@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`breadcrumbs.vue should match the snapshot 1`] = `
+<ul class="page-path">
+  <li class="page-path__item"><a class="link"><img src="/icons/Home.svg" alt="Загальне" class="img"></a></li>
+</ul>
+`;

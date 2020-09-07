@@ -1,0 +1,26 @@
+* {
+  font-family: e-Ukraine, sans-serif;
+  color: var(--black);
+}
+
+.white-space-nowrap {
+  white-space: nowrap;
+}
+
+.border {
+  &-top {
+    border-top: 1px solid var(--gray-300);
+  }
+
+  &-bottom {
+    border-bottom: 1px solid var(--gray-300);
+  }
+
+  &-left {
+    border-left: 1px solid var(--gray-300);
+  }
+
+  &-right {
+    border-right: 1px solid var(--gray-300);
+  }
+}

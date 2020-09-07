@@ -1,0 +1,26 @@
+.user {
+  &__row {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  &__icon {
+    font-size: var(--size-xs);
+    width: calc(var(--size-m) * 2);
+    height: calc(var(--size-m) * 2);
+    border-radius: 50%;
+    text-transform: uppercase;
+    background: linear-gradient(270.4deg, #000 2.45%, #666 100.09%);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__name {
+    margin-left: 0.5em;
+    font-size: var(--size-m);
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+}

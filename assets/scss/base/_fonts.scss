@@ -1,0 +1,20 @@
+/**
+ * ( font name, path, font weight, font style ( not necessarily ) )
+ */
+$fonts: (
+  ( e-Ukraine, '/e-Ukraine/e-Ukraine-Thin', 100 ),
+  ( e-Ukraine, '/e-Ukraine/e-Ukraine-UltraLight', 200 ),
+  ( e-Ukraine, '/e-Ukraine/e-Ukraine-Light', 300 ),
+  ( e-Ukraine, '/e-Ukraine/e-Ukraine-Regular', 400 ),
+  ( e-Ukraine, '/e-Ukraine/e-Ukraine-Medium', 500 ),
+  ( e-Ukraine, '/e-Ukraine/e-Ukraine-Bold', 600 )
+);
+
+@each $name, $url, $weight, $style in $fonts {
+  @font-face {
+    font-family: $name;
+    font-style: $style;
+    font-weight: $weight;
+    src: url('~assets/fonts#{$url}.ttf') format('truetype');
+  }
+}

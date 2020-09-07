@@ -1,0 +1,182 @@
+# workflow:
+#   rules:
+#    - if: $CI_COMMIT_BRANCH == "dev" ||  $CI_COMMIT_BRANCH == "test"  || $CI_COMMIT_BRANCH == "CBACK-626"
+#    - if: $CI_COMMIT_TAG =~ /^v.*$/ || $CI_COMMIT_TAG =~ /^ts.*$/
+#    - if: $CI_MERGE_REQUEST_EVENT_TYPE
+#      when: never
+#    - if: $CI_MERGE_REQUEST_ID
+#      when: never
+#    - when: never
+
+stages:
+  - build
+  - test
+  - deploy
+ 
+
+###################################  BUILD IMAGE #############################################################
+.base_build_test: &base_build_test
+  stage: build
+  tags:
+    - kub-np
+  script:
+    - echo "all OK"
+
+.base_build: &base_build
+  stage: build
+  image: registry-docker.customs.net.ua/devops/mbabenko:latest
+  variables:
+    DOCKER_DRIVER: overlay
+    DOCKER_HOST: tcp://localhost:2375
+  services:
+    - registry-docker.customs.net.ua/devops/mbabenko:latest
+  tags:
+    - kub-np
+  script:
+    - echo "base_build"
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $CI_REGISTRY
+    - |
+      echo "------------->     Pull IMAGES   <-------------" && \
+      docker pull $CI_REGISTRY_IMAGE:latest || true
+    - |
+      echo "------------->     BUILD ALL Dockerfile   <-------------" && \
+      docker build \
+        --build-arg APP_ENV=$STAGE_ENVIRONMENT_SLUG \
+        --cache-from $CI_REGISTRY_IMAGE:latest \
+        -f docker/node/Dockerfile \
+        -t $CI_REGISTRY_IMAGE/$STAGE_ENVIRONMENT_SLUG:$CI_PIPELINE_ID \
+        -t $CI_REGISTRY_IMAGE:latest \
+        "."
+    - | 
+        echo "------------->     DOCKER PUSH LATEST  <-------------" && \
+        docker push $CI_REGISTRY_IMAGE:latest
+
+BUILD_DEV_IMAGE:
+  <<: *base_build
+  services:
+    - registry-docker.customs.net.ua/devops/mbabenko:latest
+  variables:
+    STAGE_ENVIRONMENT_SLUG: dev
+    DOCKER_DRIVER: overlay
+    DOCKER_HOST: tcp://localhost:2375
+  before_script:
+    - cp $K8S_DEV_ENV .env
+  after_script:
+    - echo "BUILD_DEV_IMAGE ---> PUSH" on $STAGE_ENVIRONMENT_SLUG/$CI_COMMIT_REF_NAME
+    - docker push $CI_REGISTRY_IMAGE/$STAGE_ENVIRONMENT_SLUG:$CI_PIPELINE_ID
+  rules:
+    - if: $CI_COMMIT_BRANCH == "dev" 
+
+
+BUILD_ST_RELEASE_IMAGE:
+  <<: *base_build
+  services:
+    - registry-docker.customs.net.ua/devops/mbabenko:latest
+  variables:
+    DOCKER_DRIVER: overlay
+    DOCKER_HOST: tcp://localhost:2375
+    STAGE_ENVIRONMENT_SLUG: stage
+  before_script:
+    - cp $K8S_ST_ENV .env
+  after_script:
+    - echo "BUILD_RELEASE_IMAGE ---> PUSH" on $STAGE_ENVIRONMENT_SLUG/$CI_COMMIT_REF_NAME
+    - docker tag $CI_REGISTRY_IMAGE/$STAGE_ENVIRONMENT_SLUG:$CI_PIPELINE_ID $CI_REGISTRY_IMAGE/$STAGE_ENVIRONMENT_SLUG:$CI_BUILD_REF_NAME
+    - docker push $CI_REGISTRY_IMAGE/$STAGE_ENVIRONMENT_SLUG:$CI_BUILD_REF_NAME
+  rules:
+    - if: $CI_COMMIT_TAG =~ /^v.*$/ || $CI_COMMIT_TAG =~ /^ts.*$/
+
+
+# BUILD_PROD_RELEASE_IMAGE:
+#   <<: *base_build
+#   services:
+#     - registry-docker.customs.net.ua/devops/mbabenko:latest
+#   variables:
+#     DOCKER_DRIVER: overlay
+#     DOCKER_HOST: tcp://localhost:2375
+#     STAGE_ENVIRONMENT_SLUG: release
+#   before_script:
+#     - cp $PROD_ENV .env
+#   after_script:
+#     - echo "BUILD_RELEASE_IMAGE ---> PUSH" on $STAGE_ENVIRONMENT_SLUG/$CI_COMMIT_REF_NAME
+#     - docker tag $CI_REGISTRY_IMAGE/$STAGE_ENVIRONMENT_SLUG:$CI_PIPELINE_ID $CI_REGISTRY_IMAGE/$STAGE_ENVIRONMENT_SLUG:$CI_BUILD_REF_NAME
+#     - docker push $CI_REGISTRY_IMAGE/$STAGE_ENVIRONMENT_SLUG:$CI_BUILD_REF_NAME
+#   rules:
+#     - if: $CI_COMMIT_TAG =~ /^v.*$/ || $CI_COMMIT_TAG =~ /^ts.*$/
+
+############################################  TEST   #########################################################
+test:
+  stage: test
+  tags:
+    - kub-np
+  image: node:13.12.0-alpine
+  services: 
+    - node:13.12.0-alpine
+  script:
+    #- npm install -g yarn
+    - npm install --save-dev jest-cli ts-jest typescript
+    - yarn test
+  allow_failure: true
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+  
+############################################  Deploy   #########################################################
+
+DEV delpoy to K8s:
+  stage: deploy
+  environment:
+    name: dev/$CI_COMMIT_BRANCH
+    url: https://api-cback-fron-dev.customs.net.ua
+    kubernetes:
+      namespace: cback-dev
+  tags:
+    - kub-np
+  image: dtzar/helm-kubectl:3.2.4
+  before_script:
+    - kubectl config set-cluster cluster.local --server="${SERVER}" --certificate-authority="${CERTIFICATE_AUTHORITY_DATA}"
+    - kubectl config set-credentials idevhub --token="${USER_TOKEN}"
+    - kubectl config set-context default --cluster=cluster.local --user=idevhub --namespace=cback-dev
+    - kubectl config use-context default
+    - cd charts/front-insp-office
+    - helm dep update
+  script:
+    - helm version
+    - | 
+        helm upgrade \
+         --install \
+         --namespace cback-dev front  \
+         -f values.yaml . \
+         --set ingress.hostname=api-cback-front-dev.customs.net.ua \
+         --set image.repository=$CI_REGISTRY_IMAGE/dev \
+         --set image.tag=$CI_PIPELINE_ID
+  rules:
+    - if: $CI_COMMIT_BRANCH == "dev" 
+
+
+ST delpoy to K8S:
+  stage: deploy
+  environment:
+    name: release/$CI_BUILD_REF_NAME
+    url: https://api-cback-front-staging.customs.net.ua
+    kubernetes:
+      namespace: cback-st
+  tags:
+    - kub-np
+  image: dtzar/helm-kubectl:3.2.4
+  before_script:
+    - kubectl config set-cluster cluster.local --server="${SERVER}" --certificate-authority="${CERTIFICATE_AUTHORITY_DATA}"
+    - kubectl config set-credentials idevhub --token="${USER_TOKEN}"
+    - kubectl config set-context default --cluster=cluster.local --user=idevhub --namespace=cback-dev
+    - kubectl config use-context default
+    - cd charts/front-insp-office
+  script:
+    - helm version
+    - | 
+        helm upgrade \
+         --install \
+         --namespace cback-st front  \
+         -f values.yaml . \
+         --set image.repository=$CI_REGISTRY_IMAGE/stage \
+         --set service.appName=inf-map-front-st \
+         --set image.tag=$CI_BUILD_REF_NAME
+  rules:
+    - if: $CI_COMMIT_TAG =~ /^v.*$/ || $CI_COMMIT_TAG =~ /^ts.*$/

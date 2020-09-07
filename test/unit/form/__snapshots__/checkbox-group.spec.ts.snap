@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checkbox-group.vue should match the snapshot 1`] = `<b-form-checkbox-group-stub buttonvariant="secondary" options="" valuefield="value" textfield="text" htmlfield="html" disabledfield="disabled" checked="" class="filter__list"></b-form-checkbox-group-stub>`;

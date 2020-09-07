@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`slider-nav.vue should match the snapshot 1`] = `
+<div class="slider-nav"><button disabled="disabled" class="btn btn-flex btn-transparent small mr-2"><img src="/icons/Arrow-right.svg" alt="next" class="img img__rotate left"></button> <span class="mr-2 slider-nav__text">
+    1 / 10
+  </span> <button class="btn btn-flex btn-transparent small"><img src="/icons/Arrow-right.svg" alt="next" class="img"></button></div>
+`;

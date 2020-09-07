@@ -1,0 +1,11 @@
+[
+  "country",
+  "index",
+  "locality",
+  "district",
+  "region",
+  "street",
+  "housePavilion",
+  "houseNumber",
+  "apartmentNumber"
+]

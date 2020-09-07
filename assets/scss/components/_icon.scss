@@ -1,0 +1,11 @@
+.icon {
+  display: inline-flex;
+  width: calc(var(--size-m) * 2);
+  height: calc(var(--size-m) * 2);
+  background: linear-gradient(270.4deg, #000 2.45%, #666 100.09%);
+  border-radius: 6px;
+  color: var(--white);
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}

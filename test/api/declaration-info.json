@@ -1,0 +1,401 @@
+{
+  "id": "2e6ecbf8-372f-43da-8483-36d4b6dbff6c",
+  "declarationType": "CAR_IMPORT_DECLARATION_TYPE",
+  "customsFrontVersion": "4b8054d5-2360-4a51-a86d-79c980925626",
+  "declarationNumber": null,
+  "status": "OPEN",
+  "declaration": {
+    "goods": {
+      "carGoodsList": [
+        {
+          "goodsItemId": "000b004b-cbef-4db4-8903-0b6440b5b8c9",
+          "goodsGroup": "AUTO",
+          "goodsItemNumber": 666,
+          "customDeclarationForm": "1/3",
+          "formsNumberAndAmount": "2/2",
+          "uktzedField": {
+            "code8Digits": "12345678",
+            "codeLast2Digits": "01",
+            "thirdField": "333",
+            "fourthField": "4444",
+            "exportControlIndicator": 999
+          },
+          "originCountry": {
+            "countryName": "Poland",
+            "countryCodeNumberIso3166": "PL",
+            "countryCodeAlpha3Iso3166": "POL"
+          },
+          "grossWeightKg": 10,
+          "preferenceCode": "150",
+          "customsProcedure": {
+            "currentCustomsModeCode": "00",
+            "previousCustomsModeCode": "31",
+            "goodsMovingFeature": "ZZ",
+            "additionalGoodsMovingFeature": "42"
+          },
+          "netWeightKg": 10,
+          "quota": 0.1,
+          "generalDeclarationPreviousDoc": {
+            "docCode": "2222",
+            "declarationNumber": "1111",
+            "declarationDate": "2020-02-20",
+            "goodsItemNumber": 1
+          },
+          "additionalMeasurementUnits": {
+            "unitCode": "01",
+            "goodsAmountInUnits": 999
+          },
+          "goodsTotalPrice": 999.2222,
+          "determiningCostMethodDeclarant": "6",
+          "additionalDocuments": [
+            {
+              "documentCode": "DDOC CODE",
+              "documentInfo": "document info",
+              "documentDate": "2020-02-20"
+            }
+          ],
+          "customsCost": 999.2222,
+          "statisticalCost": 999.2222,
+          "paymentChargingList": [
+            {
+              "paymentType": 43211,
+              "calculationBasis": 9939,
+              "rate": "rrrrate",
+              "paymentMethod": 999,
+              "amount": 123.456
+            }
+          ],
+          "vin": "v i n",
+          "brand": "auto brand",
+          "model": "auto model",
+          "type": "TRUCK",
+          "bodyStyle": "COUPE",
+          "engineType": "ELECTRO",
+          "enginePowerKwt": "pwr",
+          "productionDate": "2020-02-20"
+        }
+      ]
+    },
+    "clearanceTypeCode": "IM",
+    "regimeTypeCode": "40",
+    "declarationTypeCode": "CUSTOMS_DECLARATION",
+    "exporter": {
+      "id": "123e4567-e89b-42d3-a456-556642440000",
+      "fullName": "Full Name",
+      "itn": "0123456789",
+      "docSerial": "AA123456",
+      "identityDocType": "PASSPORT",
+      "docIssueDate": "2020-02-20",
+      "docIssuer": "doc issuer",
+      "legalSubjectName": "Legal subject name",
+      "legalSubjectType": "Legal subject type",
+      "edrpou": "1234567",
+      "countryResidence": "UA",
+      "residence": {
+        "country": "UA",
+        "index": "123123",
+        "locality": "Kyiv",
+        "street": "Some Street",
+        "houseNumber": "12B",
+        "housePavilion": "4A",
+        "apartmentNumber": "12C",
+        "region": "Province",
+        "district": "District"
+      },
+      "phoneNumber": "+30112223344",
+      "email": "a@gmail.com",
+      "subjectIdentityNumber": "some"
+    },
+    "shipmentSpecifications": "SHIPMENT SPEC STUB",
+    "goodsAmount": 111,
+    "cargoSpaceCount": 222,
+    "referenceNumber": "STUB REFERENCE NUMBER",
+    "recipient": {
+      "id": "123e4567-e89b-42d3-a456-556642440000",
+      "fullName": "Full Name",
+      "itn": "0123456789",
+      "docSerial": "AA123456",
+      "identityDocType": "PASSPORT",
+      "docIssueDate": "2020-02-20",
+      "docIssuer": "doc issuer",
+      "legalSubjectName": "Legal subject name",
+      "legalSubjectType": "Legal subject type",
+      "edrpou": "1234567",
+      "countryResidence": "UA",
+      "residence": {
+        "country": "UA",
+        "index": "123123",
+        "locality": "Kyiv",
+        "street": "Some Street",
+        "houseNumber": "12B",
+        "housePavilion": "4A",
+        "apartmentNumber": "12C",
+        "region": "Province",
+        "district": "District"
+      },
+      "phoneNumber": "+30112223344",
+      "email": "a@gmail.com",
+      "subjectIdentityNumber": "some"
+    },
+    "personResponsibleForFinancialSettlement": [
+      {
+        "id": "123e4567-e89b-42d3-a456-556642440000",
+        "fullName": "Full Name",
+        "itn": "0123456789",
+        "docSerial": "AA123456",
+        "identityDocType": "PASSPORT",
+        "docIssueDate": "2020-02-20",
+        "docIssuer": "doc issuer",
+        "legalSubjectName": "Legal subject name",
+        "legalSubjectType": "Legal subject type",
+        "edrpou": "1234567",
+        "countryResidence": "UA",
+        "residence": {
+          "country": "UA",
+          "index": "123123",
+          "locality": "Kyiv",
+          "street": "Some Street",
+          "houseNumber": "12B",
+          "housePavilion": "4A",
+          "apartmentNumber": "12C",
+          "region": "Province",
+          "district": "District"
+        },
+        "phoneNumber": "+30112223344",
+        "email": "a@gmail.com",
+        "subjectIdentityNumber": "some"
+      },
+      {
+        "id": "123e4567-e89b-42d3-a456-556642440000",
+        "fullName": "Full Name",
+        "itn": "0123456789",
+        "docSerial": "AA123456",
+        "identityDocType": "PASSPORT",
+        "docIssueDate": "2020-02-20",
+        "docIssuer": "doc issuer",
+        "legalSubjectName": "Legal subject name",
+        "legalSubjectType": "Legal subject type",
+        "edrpou": "1234567",
+        "countryResidence": "UA",
+        "residence": {
+          "country": "UA",
+          "index": "123123",
+          "locality": "Kyiv",
+          "street": "Some Street",
+          "houseNumber": "12B",
+          "housePavilion": "4A",
+          "apartmentNumber": "12C",
+          "region": "Province",
+          "district": "District"
+        },
+        "phoneNumber": "+30112223344",
+        "email": "a@gmail.com",
+        "subjectIdentityNumber": "some"
+      }
+    ],
+    "destVisitCounty": {
+      "firstDestinationCountry": "UA",
+      "lastVisitCountry": "PL"
+    },
+    "tradeManufacturerCountry": {
+      "traderCountry": "UK",
+      "manufacturerCountry": "UA"
+    },
+    "totalCostInformation": 999.2222,
+    "esp": "SOME STUB ESP",
+    "declarant": {
+      "id": "123e4567-e89b-42d3-a456-556642440000",
+      "fullName": "Full Name",
+      "itn": "0123456789",
+      "docSerial": "AA123456",
+      "identityDocType": "PASSPORT",
+      "docIssueDate": "2020-02-20",
+      "docIssuer": "doc issuer",
+      "legalSubjectName": "Legal subject name",
+      "legalSubjectType": "Legal subject type",
+      "edrpou": "1234567",
+      "countryResidence": "UA",
+      "residence": {
+        "country": "UA",
+        "index": "123123",
+        "locality": "Kyiv",
+        "street": "Some Street",
+        "houseNumber": "12B",
+        "housePavilion": "4A",
+        "apartmentNumber": "12C",
+        "region": "Province",
+        "district": "District"
+      },
+      "phoneNumber": "+30112223344",
+      "email": "a@gmail.com",
+      "subjectIdentityNumber": "some"
+    },
+    "exportCountry": {
+      "countryName": "Poland",
+      "countryCodeNumberIso3166": "PL",
+      "countryCodeAlpha3Iso3166": "POL"
+    },
+    "originCountryName": "ORIGIN_CONTRY_NAME",
+    "destinationCountry": {
+      "countryName": "Poland",
+      "countryCodeNumberIso3166": "PL",
+      "countryCodeAlpha3Iso3166": "POL"
+    },
+    "departArrivalVehicle": {
+      "vehicleInfo": "some vehicle info",
+      "registrationCountryCode": "UA"
+    },
+    "isInContainer": true,
+    "deliveryTerms": {
+      "termsCode": "TERMS_CODE",
+      "countryCode": "UA"
+    },
+    "atTheBorderVehicle": {
+      "vehicleInfo": "some vehicle info",
+      "registrationCountryCode": "UA"
+    },
+    "totalPurchaseCostInCurrency": {
+      "costInCurrency": 888.022,
+      "currencyCode": "UAH"
+    },
+    "exchangeRate": 10,
+    "agreementType": {
+      "agreementTypeCode": "AGR_TYPE_CODE",
+      "currencyCode": "UAH"
+    },
+    "transportTypeAtTheBorder": [
+      {
+        "transportTypeCode": "TR_TYPE_CODE",
+        "transportTypeName": "TRANSPORT TYPE NAME"
+      }
+    ],
+    "transportTypeWithinTheCountry": [
+      {
+        "transportTypeCode": "TR_TYPE_CODE",
+        "transportTypeName": "TRANSPORT TYPE NAME"
+      }
+    ],
+    "loadingUnloadingPlace": "Loading unloading place",
+    "financialAndBankInfo": [
+      {
+        "bankEdrpou": "123456789",
+        "bankMfoCode": "BANK MFO",
+        "bankName": "Bank nameeee"
+      }
+    ],
+    "entryDepartureCustomsAuthority": {
+      "customsAuthorityCode": "CUST atuhority code",
+      "goodsPassDate": "2020-02-20"
+    },
+    "goodsLocation": "Gooods localtion",
+    "paymentsDeferral": "2020-02-20",
+    "storageDetails": {
+      "storageTypeCode": 666,
+      "operatorPersonID": "operator person id",
+      "customsAuthorityCode": "CUST atuhority code"
+    },
+    "principal": {
+      "id": "123e4567-e89b-42d3-a456-556642440000",
+      "fullName": "Full Name",
+      "itn": "0123456789",
+      "docSerial": "AA123456",
+      "identityDocType": "PASSPORT",
+      "docIssueDate": "2020-02-20",
+      "docIssuer": "doc issuer",
+      "legalSubjectName": "Legal subject name",
+      "legalSubjectType": "Legal subject type",
+      "edrpou": "1234567",
+      "countryResidence": "UA",
+      "residence": {
+        "country": "UA",
+        "index": "123123",
+        "locality": "Kyiv",
+        "street": "Some Street",
+        "houseNumber": "12B",
+        "housePavilion": "4A",
+        "apartmentNumber": "12C",
+        "region": "Province",
+        "district": "District"
+      },
+      "phoneNumber": "+30112223344",
+      "email": "a@gmail.com",
+      "subjectIdentityNumber": "some"
+    },
+    "expectedTransitCustomsAuthorities": "expectedTransitCustomsAuthorities",
+    "warrantyDetails": {
+      "warrantyAmount": 123321,
+      "measureCode": 564
+    },
+    "destinationCustomsAuthority": {
+      "customsAuthorityName": "Customs authority namne",
+      "customsAuthorityCode": "UA700140"
+    },
+    "declarantSignaturePerson": {
+      "id": "123e4567-e89b-42d3-a456-556642440000",
+      "fullName": "Full Name",
+      "itn": "0123456789",
+      "docSerial": "AA123456",
+      "identityDocType": "PASSPORT",
+      "docIssueDate": "2020-02-20",
+      "docIssuer": "doc issuer",
+      "legalSubjectName": "Legal subject name",
+      "legalSubjectType": "Legal subject type",
+      "edrpou": "1234567",
+      "countryResidence": "UA",
+      "residence": {
+        "country": "UA",
+        "index": "123123",
+        "locality": "Kyiv",
+        "street": "Some Street",
+        "houseNumber": "12B",
+        "housePavilion": "4A",
+        "apartmentNumber": "12C",
+        "region": "Province",
+        "district": "District"
+      },
+      "phoneNumber": "+30112223344",
+      "email": "a@gmail.com",
+      "subjectIdentityNumber": "some"
+    },
+    "declarantSignature": "declarant signature",
+    "declarantSignatureDateTime": "4396-04-09T20:29:47Z",
+    "declarantSignatureLocation": "Declarant signature location",
+    "transshipping": {
+      "countryCity": "Kyiv",
+      "newVehicleInfo": "new vihicle info",
+      "vehicleRegistrationCountyCode": "UA",
+      "isInContainer": true,
+      "containerNumber": "cont number",
+      "transporter": {
+        "id": "123e4567-e89b-42d3-a456-556642440000",
+        "fullName": "Full Name",
+        "itn": "0123456789",
+        "docSerial": "AA123456",
+        "identityDocType": "PASSPORT",
+        "docIssueDate": "2020-02-20",
+        "docIssuer": "doc issuer",
+        "legalSubjectName": "Legal subject name",
+        "legalSubjectType": "Legal subject type",
+        "edrpou": "1234567",
+        "countryResidence": "UA",
+        "residence": {
+          "country": "UA",
+          "index": "123123",
+          "locality": "Kyiv",
+          "street": "Some Street",
+          "houseNumber": "12B",
+          "housePavilion": "4A",
+          "apartmentNumber": "12C",
+          "region": "Province",
+          "district": "District"
+        },
+        "phoneNumber": "+30112223344",
+        "email": "a@gmail.com",
+        "subjectIdentityNumber": "some"
+      }
+    },
+    "otherTransportationAdventures": "other transportation adv"
+  },
+  "inspectionStartedAt": null,
+  "deleted": false
+}

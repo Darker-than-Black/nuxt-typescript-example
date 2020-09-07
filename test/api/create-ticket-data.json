@@ -1,0 +1,33 @@
+{
+  "documents": [
+    {
+      "document": "Doc 2",
+      "number": "12345t6y"
+    }
+  ],
+  "products": [
+    {
+      "number": "q1w2"
+    },
+    {
+      "number": "e3r4"
+    }
+  ],
+  "driver": {
+    "firstName": "name",
+    "lastName": "last name",
+    "patronym": "rtyuiop",
+    "identifier": "9876 4567 3456 3456"
+  },
+  "vehicleCard": {
+    "plateNumber": "re 4577 yu",
+    "brand": "Tavria",
+    "numberOfPersons": "23",
+    "vehicleTypeId": 1,
+    "vehicleTypeName": "Вантажний - бортовий"
+  },
+  "carrier": {
+    "name": "TOV \"OAO\"",
+    "identifier": "1234 2345 4566 3456"
+  }
+}
